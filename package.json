@@ -1,0 +1,42 @@
+{
+  "name": "aranduka",
+  "version": "1.0.0",
+  "description": "An app to manage a simple book library",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denisduarte/aranduka.git"
+  },
+  "keywords": [
+    "book",
+    "library"
+  ],
+  "author": "Denis Duarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denisduarte/aranduka/issues"
+  },
+  "homepage": "https://github.com/denisduarte/aranduka#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "cors": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "dotenv-expand": "^5.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.5.0",
+    "mongoose": "^5.10.9",
+    "nodemailer": "^6.4.16",
+    "request": "^2.88.2",
+    "sequelize": "^6.3.5",
+    "stream-json": "^1.7.1",
+    "validator": "^13.1.17"
+  },
+  "engines": {
+    "node": "15.x"
+  }
+}
